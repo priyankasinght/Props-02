@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.poster {
+  height: 15rem;
+  border-radius: 8px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;
+}
+
+.movieCard {
+  padding: 3rem;
+  border-radius: 10px;
+  margin: 4rem;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.background {
+  width: 600px;
+  float: right;
+}
+
+.movieInfo {
+  display: flex;
+  gap: 3rem;
+}
+
+
+.shortInfo {
+  display: flex;
+  gap: 2rem;
+}
+
+.movierelease {
+  color: #323f8a;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.gray {
+  color: #FFFFFF;
+}
+
+.duration {
+  border: 1px #3f4042b4 solid;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.details {
+  width: 40vw;
+}
+
+.icons {
+  display: flex;
+  gap: 3rem;
+}
